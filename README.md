@@ -43,5 +43,10 @@ Update list: `brew update`
 Upgrade apps: `brew upgrade`
 
 ### Additional links and references
-https://brew.sh
-https://ohmyz.sh
+- https://brew.sh
+- https://ohmyz.sh
+
+### Install Python Requirements
+```bash
+pip3 install -r requirements.txt
+```
