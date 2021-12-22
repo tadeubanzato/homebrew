@@ -7,7 +7,7 @@
 ## By runing the command bellow will install Homebrew and all listed apps on your system but if you want to install a different application just verify on the list add/remove a new application as needed
 ##
 ## To run the installer directly from Github without needing to download or create a new shell script on your machine
-## curl -fsSL https://raw.githubusercontent.com/tadeubanzato/PersonalMacPrompt/main/MacApps_intaller.sh | bash
+## curl -fsSL https://raw.githubusercontent.com/tadeubanzato/homebrew/main/brew_install.sh | bash
 ##
 ## Homebrew Relevant Commands
 ## brew list > Will list all instlled packages
@@ -59,8 +59,8 @@ brew install --cask appcleaner
 brew install --cask dropbox
 # Evernote https://evernote.com/download/
 brew install --cask evernote
-# Discord https://discord.com/download
-brew install --cask discord
+# Discord https://discord.com/download - Remove comments to install
+# brew install --cask discord
 # Unarchiver https://macpaw.com/the-unarchiver
 brew install --cask the-unarchiver
 # Zoom https://zoom.us/support/download
@@ -70,8 +70,8 @@ brew install --cask microsoft-office
 
 # Communication Tools
 printf "\n\n ${GREEN}--------> INSTALLING COMMUNICATION APPS ${NC}\n\n"
-# Telegram https://desktop.telegram.org/
-brew install --cask telegram
+# Telegram https://desktop.telegram.org/ - Remove comment to install
+# brew install --cask telegram
 # WhatsApp https://www.whatsapp.com/download
 brew install --cask whatsapp
 # Webex https://www.webex.com/downloads.html/
