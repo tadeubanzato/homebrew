@@ -47,5 +47,6 @@ Upgrade apps: `brew upgrade`
 ```bash
 pip3 install -r requirements.txt
 ```
-
+```bash
 wget https://raw.githubusercontent.com/tadeubanzato/homebrew/main/requirements.txt
+```
