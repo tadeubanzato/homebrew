@@ -33,8 +33,7 @@ brew install --cask google-chrome
 brew install --cask vlc
 
 ## Brew commands
-List of all installed apps: `brew list`
-
+- List of all installed apps: `brew list`
 Install app: `brew install [name of the package]`
 Uninstall apps: `brew uninstall [name of the package]`
 Update list: `brew update`
