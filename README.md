@@ -14,30 +14,30 @@ oh-my-zsh
 # Once the installation is completed
 Packages to be installed:
 
-### Brew Installs
-brew install python@3.10
-brew install git
-brew install tree
+## Brew Installs
+| Application  | Command  |
+| ------------ | ------------ |
+| Atom  | brew install --cask atom  |
+| Hype  | brew install --cask hyper  |
+| Github  | brew install --cask github  |
+| Slack  | brew install --cask slack  |
+| Notion  |  brew install --cask notion |
+| Webex  |  brew install --cask webex |
+| Dropbox  |  brew install --cask dropbox |
+| Appcleaner  |  brew install --cask appcleaner |
+| Spotify  |  brew install --cask spotify |
+| Chrome  |  brew install --cask google-chrome |
+| VLC  |  brew install --cask vlc |
+| Pyntho 3.10  |  brew install python@3.10 |
+| Tree  | brew install tree |
 
-### Brew Casks
-brew install --cask atom
-brew install --cask slack
-brew install --cask hyper
-brew install --cask github
-brew install --cask notion
-brew install --cask webex
-brew install --cask dropbox
-brew install --cask appcleaner
-brew install --cask spotify
-brew install --cask google-chrome
-brew install --cask vlc
 
 ## Brew commands
-- List of all installed apps: `brew list`
-Install app: `brew install [name of the package]`
-Uninstall apps: `brew uninstall [name of the package]`
-Update list: `brew update`
-Upgrade apps: `brew upgrade`
+1. List of all installed apps: `brew list`
+2. Install app: `brew install [name of the package]`
+3. Uninstall apps: `brew uninstall [name of the package]`
+4. Update list: `brew update`
+5. Upgrade apps: `brew upgrade`
 
 ### Additional links and references
 - https://brew.sh
