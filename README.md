@@ -50,3 +50,11 @@ pip3 install -r requirements.txt
 ```bash
 wget https://raw.githubusercontent.com/tadeubanzato/homebrew/main/requirements.txt
 ```
+
+### Install Chromedrive
+Download Chromedrive
+
+xattr -d com.apple.quarantine /Users/tbanzato/MyProjects/driver/chromedriver
+
+
+/Users/tbanzato/MyProjects/driver/chromedriver
