@@ -14,5 +14,5 @@ bs4
 pyfiglet
 uuid
 uwsgi
-fake_useragent
+fake-useragent
 proxyscrape
