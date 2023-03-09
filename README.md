@@ -8,7 +8,8 @@ Run command
 I personally like to use oh-my-zsh.
 To install it on the Mac run the following command
 ```bash
-oh-my-zsh
+brew install zsh
+
 ```
 
 # Once the installation is completed
