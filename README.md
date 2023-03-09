@@ -31,6 +31,7 @@ Packages to be installed:
 | VLC  |  brew install --cask vlc |
 | Pyntho 3.11  |  brew install python@3.11 |
 | Tree  | brew install tree |
+| Office  | brew install --cask microsoft-office |
 
 
 ## Brew commands
