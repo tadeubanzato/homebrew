@@ -9,7 +9,7 @@ I personally like to use oh-my-zsh.
 To install it on the Mac run the following command
 ```bash
 brew install zsh
-
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 # Once the installation is completed
