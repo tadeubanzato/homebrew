@@ -29,7 +29,7 @@ Packages to be installed:
 | Spotify  |  brew install --cask spotify |
 | Chrome  |  brew install --cask google-chrome |
 | VLC  |  brew install --cask vlc |
-| Pyntho 3.10  |  brew install python@3.10 |
+| Pyntho 3.11  |  brew install python@3.11 |
 | Tree  | brew install tree |
 
 
