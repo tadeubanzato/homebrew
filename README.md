@@ -18,8 +18,8 @@ Packages to be installed:
 ## Brew Installs
 | Application  | Command  |
 | ------------ | ------------ |
-| Atom  | brew install --cask atom  |
-| Hype  | brew install --cask hyper  |
+| VS Code  | brew install --cask visual-studio-code  |
+| Hyper  | brew install --cask hyper  |
 | Github  | brew install --cask github  |
 | Slack  | brew install --cask slack  |
 | Notion  |  brew install --cask notion |
