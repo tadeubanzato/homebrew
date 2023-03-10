@@ -1,4 +1,9 @@
 # Homebrew setup for new Macs
+First things first. install Xcode in case you did not have it yet.
+```bash
+xcode-select --install
+```
+
 Run command
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
