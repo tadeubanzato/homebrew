@@ -56,15 +56,15 @@ fi
 # echo "Installing cask apps..."
 # brew install --cask ${CASKS[@]}
 
-# ## Install all python packages using pip3
-# echo "Installing Python packages..."
-# PYTHON_PACKAGES=(
-#     ipython
-#     pandas
-#     html5lib
-#     requests
-#     beautifulsoup4
-#     tweepy
-#     selenium
-# )
-# sudo pip3 install ${PYTHON_PACKAGES[@]}
+## Install all python packages using pip3
+echo "Installing Python packages..."
+PYTHON_PACKAGES=(
+    ipython
+    pandas
+    html5lib
+    requests
+    beautifulsoup4
+    tweepy
+    selenium
+)
+sudo pip3 install ${PYTHON_PACKAGES[@]}
