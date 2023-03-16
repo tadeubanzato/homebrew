@@ -17,21 +17,21 @@ if test ! $(which brew); then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
-# # Check oh-my-zsh
-# echo "Check oh-my-zsh!"
-# DIRECTORY="$HOME/.oh-my-zsh"
-# if ! [ -d "$DIRECTORY" ]; then
-#     # echo "$DIRECTORY exists."
-#     echo "Checking ZSH..."
-#     if test ! $(which zsh); then
-#         PACKAGES=(
-#             zsh
-#             tree
-#         )
-#         brew install ${PACKAGES[@]}
-#     fi
-#     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-# fi
+# Check oh-my-zsh
+echo "Check oh-my-zsh!"
+DIRECTORY="$HOME/.oh-my-zsh"
+if ! [ -d "$DIRECTORY" ]; then
+    # echo "$DIRECTORY exists."
+    echo "Checking ZSH..."
+    if test ! $(which zsh); then
+        PACKAGES=(
+            zsh
+            tree
+        )
+        brew install ${PACKAGES[@]}
+    fi
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
 
 # # Update homebrew recipes
 # brew update
