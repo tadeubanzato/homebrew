@@ -69,4 +69,4 @@ PYTHON_PACKAGES=(
     tweepy
     selenium
 )
-sudo pip3 install ${PYTHON_PACKAGES[@]}
+pip3 install ${PYTHON_PACKAGES[@]}
