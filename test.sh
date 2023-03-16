@@ -27,6 +27,7 @@ if ! [ -d "$DIRECTORY" ]; then
         PACKAGES=(
             zsh
             tree
+            python@3.11
         )
         brew install ${PACKAGES[@]}
     fi
@@ -57,7 +58,8 @@ fi
 # brew install --cask ${CASKS[@]}
 
 ## Install all python packages using pip3
-echo "Installing Python packages..."
+echo "Installing lastest PIP3."
+python3.11 -m pip install --upgrade pip
 PYTHON_PACKAGES=(
     ipython
     pandas
