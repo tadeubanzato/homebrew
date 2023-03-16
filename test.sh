@@ -3,19 +3,19 @@
 # Script source: https://medium.com/macoclock/automating-your-macos-setup-with-homebrew-and-cask-e2a103b51af1
 # Run script from github directly: sh -c "$(curl -fsSL https://raw.githubusercontent.com/tadeubanzato/homebrew/main/test.sh)"
 
-# Check for Xcode-Select
-echo "Checking xcode-select!"
-if test ! $(which xcode-select); then
-    echo "Installing xcode-select..."
-    xcode-select --install
-fi
-
-# # Check for Homebrew to be present, install if it's missing
-# echo "Check Homebrew!"
-# if test ! $(which brew); then
-#     echo "Installing homebrew..."
-#     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# # Check for Xcode-Select
+# echo "Checking xcode-select!"
+# if test ! $(which xcode-select); then
+#     echo "Installing xcode-select..."
+#     xcode-select --install
 # fi
+
+# Check for Homebrew to be present, install if it's missing
+echo "Check Homebrew!"
+if test ! $(which brew); then
+    echo "Installing homebrew..."
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
 
 # # Check oh-my-zsh
 # echo "Check oh-my-zsh!"
