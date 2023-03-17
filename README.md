@@ -1,5 +1,5 @@
 # Homebrew setup for new Macs
-## The Automated Way
+## 🤖 The Automated Way
 I create a shell script that essentially do the same steps as below wihout having to manually execute it one by one.
 To execute it you can simply run the below command on your Terminal window.
 ```bash
@@ -7,7 +7,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/tadeubanzato/homebrew/main
 ```
 The raw version of the file is named: auto_install.sh
 
-## The Manual Way
+## 🤟🏼 The Manual Way
 In case you do not want to use the automated script you can follow the below instructions and install all packages autmanually
 ### Step 1 - Install Xcode
 ```bash
@@ -27,7 +27,7 @@ brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-# Install Homebrew casks and packages
+# 🍻 Install Homebrew casks and packages
 Below is the list of packages and casks for you to install on your machine but you can find any of the packages and casks at https://brew.sh
 > These are the applications I use on my day to day, but you do not need to be limited to only those
 
