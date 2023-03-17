@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script source: https://medium.com/macoclock/automating-your-macos-setup-with-homebrew-and-cask-e2a103b51af1
-# Run script from github directly: sh -c "$(curl -fsSL https://raw.githubusercontent.com/tadeubanzato/homebrew/main/test.sh)"
+# Run script from github directly: sh -c "$(curl -fsSL https://raw.githubusercontent.com/tadeubanzato/homebrew/main/auto_install.sh)"
 
 ## Check for Xcode-Select
 echo "Checking xcode-select!"

@@ -1,4 +1,13 @@
 # Homebrew setup for new Macs
+## The Automated Way
+I create a shell script that essentially do the same steps as below wihout having to manually execute it one by one.
+To execute it you can simply run the below command on your Terminal window.
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/tadeubanzato/homebrew/main/auto_install.sh)"
+```
+The raw version of the file is named: auto_install.sh
+
+## The Manual Way
 First things first. install Xcode in case you did not have it yet.
 ```bash
 xcode-select --install
