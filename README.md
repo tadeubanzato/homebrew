@@ -67,7 +67,8 @@ pip3 install -r requirements.txt
 4. Update list: `brew update`
 5. Upgrade apps: `brew upgrade`
 
-### Additional links and references
+## Additional links and references
+- https://hyper.is
 - https://brew.sh
 - https://ohmyz.sh
 - https://code.visualstudio.com
