@@ -49,24 +49,23 @@ Below is the list of packages and casks for you to install on your machine but y
 | Tree  | brew install tree |
 | Office  | brew install --cask microsoft-office |
 
+## 🐍 Install Python Requirements
+1. Download the requirements.txt file locally
+```bash
+wget https://raw.githubusercontent.com/tadeubanzato/homebrew/main/requirements.txt
+```
+
+2. Run the Pip install command
+```bash
+pip3 install -r requirements.txt
+```
+
 ## Other Homebrew commands
 1. List of all installed apps: `brew list`
 2. Install app: `brew install [name of the package]`
 3. Uninstall apps: `brew uninstall [name of the package]`
 4. Update list: `brew update`
 5. Upgrade apps: `brew upgrade`
-
-### Install Python Requirements
-```bash
-pip3 install -r requirements.txt
-```
-```bash
-wget https://raw.githubusercontent.com/tadeubanzato/homebrew/main/requirements.txt
-```
-
-### Install Chromedrive
-Download Chromedrive
-xattr -d com.apple.quarantine /Users/tbanzato/MyProjects/driver/chromedriver
 
 ### Additional links and references
 - https://brew.sh
