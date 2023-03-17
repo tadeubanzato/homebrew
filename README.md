@@ -8,28 +8,30 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/tadeubanzato/homebrew/main
 The raw version of the file is named: auto_install.sh
 
 ## The Manual Way
-First things first. install Xcode in case you did not have it yet.
+In case you do not want to use the automated script you can follow the below instructions and install all packages autmanually
+### Step 1 - Install Xcode
 ```bash
 xcode-select --install
 ```
-
-Run command
+### Step 2 - Install Homebrew
+The below command will install Homebrew, follow any aditional instructions after installation.
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-## Instal oh-my-zsh
-I personally like to use oh-my-zsh.
-To install it on the Mac run the following command
+### Step3 - Instal ZSH and oh-my-zsh
+I personally like to use oh-my-zsh to customize my prompt and cousor.
+> You can see some personlization instructions here: https://github.com/tadeubanzato/PersonalMacPrompt
 ```bash
 brew install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-# Once the installation is completed
-Packages to be installed:
+# Install Homebrew casks and packages
+Below is the list of packages and casks for you to install on your machine but you can find any of the packages and casks at https://brew.sh
+> These are the applications I use on my day to day, but you do not need to be limited to only those
 
-## Brew Installs
+## Homebrew casks and packages
 | Application  | Command  |
 | ------------ | ------------ |
 | VS Code  | brew install --cask visual-studio-code  |
@@ -47,17 +49,12 @@ Packages to be installed:
 | Tree  | brew install tree |
 | Office  | brew install --cask microsoft-office |
 
-
-## Brew commands
+## Other Homebrew commands
 1. List of all installed apps: `brew list`
 2. Install app: `brew install [name of the package]`
 3. Uninstall apps: `brew uninstall [name of the package]`
 4. Update list: `brew update`
 5. Upgrade apps: `brew upgrade`
-
-### Additional links and references
-- https://brew.sh
-- https://ohmyz.sh
 
 ### Install Python Requirements
 ```bash
@@ -69,8 +66,12 @@ wget https://raw.githubusercontent.com/tadeubanzato/homebrew/main/requirements.t
 
 ### Install Chromedrive
 Download Chromedrive
-
 xattr -d com.apple.quarantine /Users/tbanzato/MyProjects/driver/chromedriver
 
-
-/Users/tbanzato/MyProjects/driver/chromedriver
+### Additional links and references
+- https://brew.sh
+- https://ohmyz.sh
+- https://code.visualstudio.com
+- https://www.python.org
+- https://pypi.org
+- http://mama.indstate.edu/users/ice/tree/ (Tree)
