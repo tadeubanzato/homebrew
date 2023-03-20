@@ -68,5 +68,8 @@ PYTHON_PACKAGES=(
     beautifulsoup4
     tweepy
     selenium
+    colorama
+    python-dotenv
+    pyfiglet
 )
 pip3 install ${PYTHON_PACKAGES[@]}
